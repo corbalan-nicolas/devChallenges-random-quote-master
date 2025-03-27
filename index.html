@@ -18,6 +18,7 @@
     <script defer src="js/main.js"></script>
 
     <!-- Styles -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- 
     I implemented for the first time the Tailwind CLI method to incorporate tailwind in this proyect.
     To be honest, I don't unsdertand how to use it propertly (yet). I just tried and tried until I got
@@ -26,10 +27,11 @@
     -->
     <link rel="stylesheet" href="css/styles.css">
   </head>
-  <body class="bg-[#111629] text-(--col-3) grid place-content-center min-h-dvh">
+  <!-- bg-[#111629] text-(--col-3) grid justify-center items-end min-h-[70dvh] -->
+  <body class="bg-[#111629] text-(--col-3) grid justify-center">
     <h1 class="sr-only">Random Quote generator</h1>
-    <div class="max-w-lg grid gap-4">
-      <div id="card" class="col-span-full card custom-box-shadow p-8 text-center rounded-lg"></div>
+    <div class="max-w-lg grid gap-4 grid-rows-[23rem_auto] p-10">
+      <div id="card" class="mt-auto col-span-full card custom-box-shadow p-8 text-center rounded-lg"></div>
 
       <div class="flex gap-4 justify-center">
         <button id="random" class="flex gap-2 bg-(--col-4) hover:bg-[#30394b] active:bg-[#30343b] rounded-lg py-2 px-4 cursor-pointer" title="Generate random quote (R)">

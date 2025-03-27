@@ -301,7 +301,7 @@
   box-shadow: 447px 304px 151px 0px rgba(0, 0, 0, 0), 286px 195px 138px 0px rgba(0, 0, 0, 0.01), 161px 110px 117px 0px rgba(0, 0, 0, 0.05), 72px 49px 87px 0px rgba(0, 0, 0, 0.09), 18px 12px 48px 0px rgba(0, 0, 0, 0.1);
 }
 .card {
-  background: var(--col-4) url('resources/bg-image-random-quote.svg') no-repeat right bottom;
+  background: var(--col-4) url('../resources/bg-image-random-quote.svg') no-repeat right bottom;
 }
 @property --tw-border-style {
   syntax: "*";
